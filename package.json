@@ -28,6 +28,7 @@
     "email": "team@zeit.co"
   },
   "dependencies": {
+    "@babel/helpers": "7.26.10",
     "@electron/remote": "2.1.2",
     "@react-icons/all-files": "4.1.0",
     "@redux-devtools/extension": "^3.3.0",
@@ -143,5 +144,8 @@
       "!lib/**",
       "!dist/**"
     ]
+  },
+  "resolutions": {
+    "**/@babel/helpers": "^7.26.10"
   }
 }
