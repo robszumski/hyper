@@ -37,6 +37,7 @@
     "color": "4.2.3",
     "columnify": "1.6.0",
     "css-loader": "7.1.1",
+    "diff": "8.0.3",
     "got": "12.4.1",
     "json-loader": "0.5.7",
     "lodash": "4.17.21",
@@ -143,5 +144,8 @@
       "!lib/**",
       "!dist/**"
     ]
+  },
+  "resolutions": {
+    "**/diff": "^8.0.3"
   }
 }
