@@ -143,5 +143,8 @@
       "!lib/**",
       "!dist/**"
     ]
+  },
+  "resolutions": {
+    "**/minimatch": "^10.2.1"
   }
 }
