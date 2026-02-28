@@ -40,6 +40,7 @@
     "got": "12.4.1",
     "json-loader": "0.5.7",
     "lodash": "4.17.21",
+    "minimatch": "3.1.3",
     "mousetrap": "chabou/mousetrap#useCapture",
     "ms": "2.1.3",
     "open": "8.4.2",
@@ -143,5 +144,8 @@
       "!lib/**",
       "!dist/**"
     ]
+  },
+  "resolutions": {
+    "**/minimatch": "^3.1.3"
   }
 }
